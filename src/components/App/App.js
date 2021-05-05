@@ -5,7 +5,7 @@ import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import { Route, Switch } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <>
       <Nav />

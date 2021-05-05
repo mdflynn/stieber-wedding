@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
-    return (
-        <h1>Nav</h1>
-    )
-}
+  return (
+    <nav>
+      <NavLink to="/location" className="nav-link">
+        <p>When & Where</p>
+      </NavLink>
+    </nav>
+  );
+};
 
 export default Nav;
