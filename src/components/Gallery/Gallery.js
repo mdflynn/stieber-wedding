@@ -5,141 +5,285 @@ const Gallery = () => {
   return (
     <div className="masonry">
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/300 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/300"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/100 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/100"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/50 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/50"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/600 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/600"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/200 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/200"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/500 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/500"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/400 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/400"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/30 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/30"
+          alt="stock image"
+        />
       </div>
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/10 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/20 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/60 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/80 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/10"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/300 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/20"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/200 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/60"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/100 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/80"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/50 " />
-      </div>
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/600 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/500 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/300"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/400 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/200"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/30 " />
-      </div>
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/10 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/20 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/100"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/60 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/50"
+          alt="stock image"
+        />
+      </div>
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/600"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/80 " />
-      </div>
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/300 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/200 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/500"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/100 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/400"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/50 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/30"
+          alt="stock image"
+        />
       </div>
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/600 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/500 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/400 " />
-      </div>
-
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/30 " />
-      </div>
-      <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/10 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/10"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/20 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/20"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/60 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/60"
+          alt="stock image"
+        />
       </div>
 
       <div className="mItem">
-        <img className="gallery-img" src="https://source.unsplash.com/random/80 " />
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/80"
+          alt="stock image"
+        />
+      </div>
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/300"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/200"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/100"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/50"
+          alt="stock image"
+        />
+      </div>
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/600"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/500"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/400"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/30"
+          alt="stock image"
+        />
+      </div>
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/10"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/20"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/60"
+          alt="stock image"
+        />
+      </div>
+
+      <div className="mItem">
+        <img
+          className="gallery-img"
+          src="https://source.unsplash.com/random/80"
+          alt="stock image"
+        />
       </div>
     </div>
   );
