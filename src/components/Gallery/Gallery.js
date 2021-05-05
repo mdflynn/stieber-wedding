@@ -8,7 +8,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/300"
-          alt="stock image"
+          alt="stock 1"
         />
       </div>
 
@@ -16,7 +16,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/100"
-          alt="stock image"
+          alt="stock 2"
         />
       </div>
 
@@ -24,7 +24,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/50"
-          alt="stock image"
+          alt="stock 3"
         />
       </div>
 
@@ -32,7 +32,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/600"
-          alt="stock image"
+          alt="stock 4"
         />
       </div>
 
@@ -40,7 +40,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/200"
-          alt="stock image"
+          alt="stock 5"
         />
       </div>
 
@@ -48,7 +48,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/500"
-          alt="stock image"
+          alt="stock 6"
         />
       </div>
 
@@ -56,7 +56,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/400"
-          alt="stock image"
+          alt="stock 7"
         />
       </div>
 
@@ -64,14 +64,14 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/30"
-          alt="stock image"
+          alt="stock 8"
         />
       </div>
       <div className="mItem">
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/10"
-          alt="stock image"
+          alt="stock 9"
         />
       </div>
 
@@ -79,7 +79,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/20"
-          alt="stock image"
+          alt="stock 10"
         />
       </div>
 
@@ -87,7 +87,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/60"
-          alt="stock image"
+          alt="stock 11"
         />
       </div>
 
@@ -95,7 +95,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/80"
-          alt="stock image"
+          alt="stock 12"
         />
       </div>
 
@@ -103,7 +103,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/300"
-          alt="stock image"
+          alt="stock 13"
         />
       </div>
 
@@ -111,7 +111,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/200"
-          alt="stock image"
+          alt="stock 14"
         />
       </div>
 
@@ -119,7 +119,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/100"
-          alt="stock image"
+          alt="stock 15"
         />
       </div>
 
@@ -127,14 +127,14 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/50"
-          alt="stock image"
+          alt="stock 16"
         />
       </div>
       <div className="mItem">
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/600"
-          alt="stock image"
+          alt="stock 17"
         />
       </div>
 
@@ -142,7 +142,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/500"
-          alt="stock image"
+          alt="stock18"
         />
       </div>
 
@@ -150,7 +150,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/400"
-          alt="stock image"
+          alt="stock 19"
         />
       </div>
 
@@ -158,14 +158,14 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/30"
-          alt="stock image"
+          alt="stock 20"
         />
       </div>
       <div className="mItem">
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/10"
-          alt="stock image"
+          alt="stock 21"
         />
       </div>
 
@@ -173,7 +173,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/20"
-          alt="stock image"
+          alt="stock 22"
         />
       </div>
 
@@ -181,7 +181,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/60"
-          alt="stock image"
+          alt="stock 23"
         />
       </div>
 
@@ -189,14 +189,14 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/80"
-          alt="stock image"
+          alt="stock 24"
         />
       </div>
       <div className="mItem">
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/300"
-          alt="stock image"
+          alt="stock 25"
         />
       </div>
 
@@ -204,7 +204,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/200"
-          alt="stock image"
+          alt="stock 26"
         />
       </div>
 
@@ -212,7 +212,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/100"
-          alt="stock image"
+          alt="stock 27"
         />
       </div>
 
@@ -220,14 +220,14 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/50"
-          alt="stock image"
+          alt="stock 28"
         />
       </div>
       <div className="mItem">
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/600"
-          alt="stock image"
+          alt="stock 29"
         />
       </div>
 
@@ -235,7 +235,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/500"
-          alt="stock image"
+          alt="stock 30"
         />
       </div>
 
@@ -243,7 +243,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/400"
-          alt="stock image"
+          alt="stock 31"
         />
       </div>
 
@@ -251,14 +251,14 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/30"
-          alt="stock image"
+          alt="stock 32"
         />
       </div>
       <div className="mItem">
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/10"
-          alt="stock image"
+          alt="stock 33"
         />
       </div>
 
@@ -266,7 +266,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/20"
-          alt="stock image"
+          alt="stock 34"
         />
       </div>
 
@@ -274,7 +274,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/60"
-          alt="stock image"
+          alt="stock 35"
         />
       </div>
 
@@ -282,7 +282,7 @@ const Gallery = () => {
         <img
           className="gallery-img"
           src="https://source.unsplash.com/random/80"
-          alt="stock image"
+          alt="stock 36"
         />
       </div>
     </div>
