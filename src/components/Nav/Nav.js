@@ -5,7 +5,16 @@ const Nav = () => {
   return (
     <nav>
       <NavLink to="/location" className="nav-link">
-        <p>When & Where</p>
+        <p className="nav-text">When & Where</p>
+      </NavLink>
+      <NavLink to="gallery" className="nav-link">
+        <p className="nav-text">Gallery</p>
+      </NavLink>
+      <NavLink to="registry" className="nav-link">
+        <p className="nav-text">Registry</p>
+      </NavLink>
+      <NavLink to="rsvp" className="nav-link">
+        <p className="nav-text">RSVP</p>
       </NavLink>
     </nav>
   );
