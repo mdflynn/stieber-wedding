@@ -1,19 +1,23 @@
 @import "../../variables";
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: $color-shadow;
-    text-shadow: 1px 1px 1px $color-white;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $color-shadow;
+  text-shadow: 1px 1px 1px $color-white;
+  text-align: center;
 }
 
 .nav-text {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 #nav-name {
-    margin-right: auto;
+  margin-right: auto;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: $color-shadow;
+}
