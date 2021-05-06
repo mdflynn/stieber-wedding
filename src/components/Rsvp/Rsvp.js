@@ -24,6 +24,12 @@ const Rsvp = () => {
       setMessage(e.target.value);
   }
 
+  const handleFormSubmit = (e) => {
+      e.preventDefault();
+      // add emailJS 
+      // incomplete form check
+  }
+
   return (
     <form>
       <div className="segment">
