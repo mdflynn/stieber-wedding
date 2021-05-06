@@ -27,7 +27,7 @@ const Rsvp = () => {
   return (
     <form>
       <div className="segment">
-        <h1>RSVP</h1>
+        <h1 className="shimmer">RSVP</h1>
       </div>
       <label className="form-label">
         <input
