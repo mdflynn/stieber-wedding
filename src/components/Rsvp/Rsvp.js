@@ -3,16 +3,21 @@ import "./Rsvp.scss";
 
 const Rsvp = () => {
   const [attend, setAttend] = useState(null);
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
   const [guests, setGuests] = useState(0);
+  const [email, setEmail] = useState("");
 
-  const handleNameChange = (event) => {
-    setName(event.target.value);
+  const handleNameChange = (e) => {
+    setName(e.target.value);
   };
 
-  const handleGuestChange = event => {
-      setGuests(event.target.value)
-  }
+  const handleGuestChange = (e) => {
+    setGuests(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
 
   return (
     <form>
@@ -39,7 +44,13 @@ const Rsvp = () => {
         />
       </label>
       <label className="form-label">
-        <input className="form-input" type="text" placeholder="Email Address" />
+        <input
+          className="form-input"
+          type="text"
+          placeholder="Email Address"
+          value={email}
+          onChange={handleEmailChange}
+        />
       </label>
       <label className="form-label">
         <textarea
