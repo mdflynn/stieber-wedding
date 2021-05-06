@@ -4,8 +4,9 @@ import "./Rsvp.scss";
 const Rsvp = () => {
   const [attend, setAttend] = useState(null);
   const [name, setName] = useState("");
-  const [guests, setGuests] = useState(0);
+  const [guests, setGuests] = useState("");
   const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -18,6 +19,10 @@ const Rsvp = () => {
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
   };
+
+  const handleMessageChange = (e) => {
+      setMessage(e.target.value);
+  }
 
   return (
     <form>
@@ -57,10 +62,12 @@ const Rsvp = () => {
           rows="4"
           cols="50"
           placeholder="   Message (optional)"
+          value={message}
+          onChange={handleMessageChange}
         ></textarea>
       </label>
       <button className="form-button" type="button">
-        <i className="icon ion-md-lock"></i> Send
+        <i className="icon"></i> Send
       </button>
     </form>
   );

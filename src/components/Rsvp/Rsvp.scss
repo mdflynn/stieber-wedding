@@ -1,8 +1,4 @@
-$ruler: 16px;
-$color-red: #ae1100;
-$color-bg: #ebecf0;
-$color-shadow: #babecc;
-$color-white: #fff;
+@import "../../variables";
 
 body,
 html {
@@ -10,10 +6,10 @@ html {
 }
 
 textarea {
-    background-color: $color-bg;
-    border-radius: 20px;
-    border: none;
-    padding-top: 10px;
+  background-color: $color-bg;
+  border-radius: 20px;
+  border: none;
+  padding-top: 10px;
 }
 
 body,
@@ -58,7 +54,8 @@ textarea {
   width: 100%;
 }
 
-.form-input, textarea {
+.form-input,
+textarea {
   margin-right: $ruler/2;
   box-shadow: inset 2px 2px 5px $color-shadow, inset -5px -5px 10px $color-white;
   width: 100%;
@@ -92,22 +89,6 @@ textarea {
 
   .icon {
     margin-right: $ruler/2;
-  }
-
-  &.unit {
-    border-radius: $ruler/2;
-    line-height: 0;
-    width: $ruler * 3;
-    height: $ruler * 3;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 $ruler/2;
-    font-size: $ruler * 1.2;
-
-    .icon {
-      margin-right: 0;
-    }
   }
 
   &.form-button {
