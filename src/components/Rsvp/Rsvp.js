@@ -6,7 +6,7 @@ const Rsvp = () => {
 
   return (
     <form>
-      <div class="segment">
+      <div className="segment">
         <h1>RSVP</h1>
       </div>
       <label className="form-label">
@@ -19,10 +19,10 @@ const Rsvp = () => {
         <input className="form-input" type="text" placeholder="Email Address" />
       </label>
       <label className="form-label">
-        <textarea rows="4" cols="50"></textarea>
+        <textarea rows="4" cols="50" placeholder="   Message (optional)"></textarea>
       </label>
-      <button class="red" type="button">
-        <i class="icon ion-md-lock"></i> Send
+      <button className="form-button" type="button">
+        <i className="icon ion-md-lock"></i> Send
       </button>
     </form>
   );
