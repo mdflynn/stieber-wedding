@@ -1,42 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Rsvp.scss";
 
 const Rsvp = () => {
+  const [attend, setAttend] = useState(null);
+
   return (
     <form>
       <div class="segment">
-        <h1>Sign up</h1>
+        <h1>RSVP</h1>
       </div>
-      <label>
-        <input type="text" placeholder="Email Address" />
+      <label className="form-label">
+        <input className="form-input" type="text" placeholder="Name" />
       </label>
-      <label>
-        <input type="password" placeholder="Password" />
+      <label className="form-label">
+        <input className="form-input" type="number" min={0} placeholder="Number of Guests" />
+      </label>
+      <label className="form-label">
+        <input className="form-input" type="text" placeholder="Email Address" />
+      </label>
+      <label className="form-label">
+        <textarea rows="4" cols="50"></textarea>
       </label>
       <button class="red" type="button">
-        <i class="icon ion-md-lock"></i> Log in
+        <i class="icon ion-md-lock"></i> Send
       </button>
-
-      <div class="segment">
-        <button class="unit" type="button">
-          <i class="icon ion-md-arrow-back"></i>
-        </button>
-        <button class="unit" type="button">
-          <i class="icon ion-md-bookmark"></i>
-        </button>
-        <button class="unit" type="button">
-          <i class="icon ion-md-settings"></i>
-        </button>
-      </div>
-
-      <div class="input-group">
-        <label>
-          <input type="text" placeholder="Email Address" />
-        </label>
-        <button class="unit" type="button">
-          <i class="icon ion-md-search"></i>
-        </button>
-      </div>
     </form>
   );
 };

@@ -8,7 +8,7 @@ body, html {
   background-color:$color-bg;
 }
 
-body, p, input, select, textarea, button {
+body, p, .form-input, select, textarea, button {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -0.2px;
     font-size: $ruler;
@@ -31,7 +31,7 @@ form {
   text-align: center;
 }
 
-button, input {
+button, .form-input {
   border: 0;
   outline: 0;
   font-size: $ruler;
@@ -41,13 +41,13 @@ button, input {
   text-shadow: 1px 1px 0 $color-white;
 }
 
-label {
+.form-label, textarea {
   display: block;
   margin-bottom: $ruler*1.5;
   width: 100%;
 }
 
-input {
+.form-input {
   margin-right: $ruler/2;
   box-shadow:  inset 2px 2px 5px $color-shadow, inset -5px -5px 10px $color-white;
   width: 100%;
@@ -104,13 +104,3 @@ button {
   }
 }
 
-.input-group {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  
-  label {
-    margin: 0;
-    flex: 1;
-  }
-}
