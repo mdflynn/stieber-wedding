@@ -4,11 +4,15 @@ import "./Rsvp.scss";
 const Rsvp = () => {
   const [attend, setAttend] = useState(null);
   const [name, setName] = useState('');
+  const [guests, setGuests] = useState(0);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
   };
 
+  const handleGuestChange = event => {
+      setGuests(event.target.value)
+  }
 
   return (
     <form>
@@ -30,6 +34,8 @@ const Rsvp = () => {
           type="number"
           min={0}
           placeholder="Number of Guests"
+          value={guests}
+          onChange={handleGuestChange}
         />
       </label>
       <label className="form-label">
