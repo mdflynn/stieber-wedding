@@ -16,7 +16,7 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="modal" style={modalStyle}>
+      <div className="modal" style={modalStyle} onClick={closeModal}>
         <div className="modal-content">
           <span className="close" onClick={closeModal}>&times;</span>
           <img className="modal-img" src={imgSrc} />
