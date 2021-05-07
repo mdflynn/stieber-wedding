@@ -5,7 +5,14 @@ import stockOne from "../../assets/stock-1.jpg";
 const MainPage = () => {
   return (
     <main>
-      <img id="main-img" src={stockOne} alt="engagement" />
+      <div className="bg">
+        <div className="caption">
+          <span className="border">David</span>
+          <br />
+          <br />
+          <span className="border">& Abbey</span>
+        </div>
+      </div>
     </main>
   );
 };
