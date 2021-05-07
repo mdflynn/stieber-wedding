@@ -16,10 +16,10 @@ const Gallery = () => {
 
   return (
     <>
-      <div id="myModal" className="modal" style={modalStyle}>
+      <div className="modal" style={modalStyle}>
         <div className="modal-content">
           <span className="close" onClick={closeModal}>&times;</span>
-          <img src={imgSrc} />
+          <img className="modal-img" src={imgSrc} />
         </div>
       </div>
 
