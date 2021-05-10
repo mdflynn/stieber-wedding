@@ -21,6 +21,27 @@
   }
 }
 
+.direction-btn {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 225px;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+
+.direction-btn:hover,
+.direction-btn:active {
+  background-color: #fff;
+  color: #000;
+}
+
 @keyframes neon {
   from {
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
