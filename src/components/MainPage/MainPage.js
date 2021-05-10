@@ -6,12 +6,10 @@ const MainPage = () => {
   return (
     <main>
       <div className="bg">
-        <div className="caption">
-          <span className="border">David</span>
-          <br />
-          <br />
-          <span className="border">& Abbey</span>
-        </div>
+        <h1 className="elegant-shadow">
+          David
+          <br />&<br /> Abbey
+        </h1>
       </div>
     </main>
   );

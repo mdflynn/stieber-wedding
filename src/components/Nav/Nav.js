@@ -1,11 +1,15 @@
 import React from "react";
 import "./Nav.scss";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <nav>
-      <p id="nav-name">David & Abbey</p>
+      <Link to="/" id="nav-name">
+        <p className="nav-link">
+          David & Abbey
+        </p>
+      </Link>
       <NavLink to="/location" className="nav-link">
         <p className="nav-text">When & Where</p>
       </NavLink>

@@ -11,13 +11,18 @@ nav {
 
 .nav-text {
   margin-right: 50px;
+  font-weight: bold;
+  color: rgb(240, 150, 165);
 }
 
 #nav-name {
+  margin-left: 10px;
   margin-right: auto;
+  text-decoration: none;
 }
 
 .nav-link {
   text-decoration: none;
-  color: $color-shadow;
+  font-weight: bold;
+  color: rgb(240, 150, 165);
 }

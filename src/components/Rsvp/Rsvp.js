@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Rsvp.scss";
 
 const Rsvp = () => {
-  const [attend, setAttend] = useState(null);
+  // const [attend, setAttend] = useState(null);
   const [name, setName] = useState("");
   const [guests, setGuests] = useState("");
   const [email, setEmail] = useState("");
@@ -21,17 +21,29 @@ const Rsvp = () => {
   };
 
   const handleMessageChange = (e) => {
-      setMessage(e.target.value);
-  }
+    setMessage(e.target.value);
+  };
 
   const handleFormSubmit = (e) => {
+    if (name && guests && email) {
       e.preventDefault();
-      // add emailJS 
-      // incomplete form check
-  }
+      // add emailJS
+      alert("damn");
+    } else {
+      const errName = name ? '' : 'Name'
+      const errGuests = guests ? '' : 'Number of Guests'
+      const errEmail = email ? '' : 'eMail'
+      alert(
+        `Please complete the fields: \n
+        ${errName} \n
+        ${errGuests} \n
+        ${errEmail}`
+      );
+    }
+  };
 
   return (
-    <form>
+    <form onSubmit={handleFormSubmit}>
       <div className="segment">
         <h1 className="shimmer">RSVP</h1>
       </div>
@@ -72,8 +84,8 @@ const Rsvp = () => {
           onChange={handleMessageChange}
         ></textarea>
       </label>
-      <button className="form-button" type="button">
-        <i className="icon"></i> Send
+      <button className="form-button icon" type="submit">
+        Send
       </button>
     </form>
   );
