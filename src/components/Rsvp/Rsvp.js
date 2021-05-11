@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./Rsvp.scss";
 
 const Rsvp = () => {
-  // const [attend, setAttend] = useState(null);
   const [name, setName] = useState("");
   const [guests, setGuests] = useState("");
   const [email, setEmail] = useState("");
@@ -27,12 +27,31 @@ const Rsvp = () => {
   const handleFormSubmit = (e) => {
     if (name && guests && email) {
       e.preventDefault();
-      // add emailJS
-      alert("damn");
+
+      emailjs
+        .send(
+          "service_rygy3c1",
+          "template_qgr3q7a",
+          {
+            name,
+            guests,
+            email,
+            message,
+          },
+          "user_SWyu6G36NmjN0H1xzQ0Xc"
+        )
+        .then(
+          (result) => {
+            console.log("SUCCESS!", result.status, result.text);
+          },
+          (error) => {
+            console.log("FAILED...", error);
+          }
+        );
     } else {
-      const errName = name ? '' : 'Name'
-      const errGuests = guests ? '' : 'Number of Guests'
-      const errEmail = email ? '' : 'eMail'
+      const errName = name ? "" : "Name";
+      const errGuests = guests ? "" : "Number of Guests";
+      const errEmail = email ? "" : "eMail";
       alert(
         `Please complete the fields: \n
         ${errName} \n
