@@ -1,6 +1,42 @@
 @import "../../variables";
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
+@font-face {
+    font-family: "youth-touch";
+    src: url("../../assets/YouthTouchDemoRegular-4VwY.ttf") format(("truetype"));
+}
+
+.registry-div {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    position: relative;
+    top: -20%;
+    font-family: "youth-touch";
+    text-align: center;
+    background: -webkit-linear-gradient(#ffdc2a, #fb2182);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 68px;
+  }
+}
+
+.registry-div::before {
+  background-image: url("../../assets/beach.jpeg");
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
 .container,
 .registry-btn,
 .sun,
@@ -9,7 +45,7 @@
 }
 .container {
   margin: auto;
-  top: 0%;
+  top: 50%;
   left: 0;
   right: 0;
   bottom: 0;
