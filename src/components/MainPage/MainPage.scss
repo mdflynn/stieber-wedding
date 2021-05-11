@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .bg {
   background-image: url("../../assets/stock-1.jpg");
   height: 900px;
@@ -8,17 +10,10 @@
   opacity: 0.65;
 }
 
-.bg {
-  position: relative;
-  opacity: 0.65;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .elegant-shadow {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     "AppleGothic", sans-serif;
+    // font-family: 'Pacifico', cursive;
   font-size: 92px;
   padding: 80px 50px;
   margin-top: 0;
