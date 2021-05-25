@@ -1,6 +1,5 @@
 import React from "react";
 import "./MainPage.scss";
-import stockOne from "../../assets/stock-1.jpg";
 
 const MainPage = () => {
   return (
