@@ -1,10 +1,5 @@
 @import "../../variables";
 
-body,
-html {
-  background-color: $color-bg;
-}
-
 textarea {
   background-color: $color-bg;
   border-radius: 20px;
@@ -23,10 +18,21 @@ textarea,
   font-size: $ruler;
 }
 
+.form-div {
+  background-image: url("../../assets/field.jpg");
+  content: "";
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 form {
   padding: $ruler;
   width: $ruler * 20;
-  margin: 0 auto;
+  // margin: 0 auto;
+  margin-left: 20em;
 }
 
 .segment {
@@ -73,13 +79,13 @@ textarea {
 .form-button {
   color: #61677c;
   font-weight: bold;
-  box-shadow: -5px -5px 20px $color-white, 5px 5px 20px $color-shadow;
+  box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font-weight: 600;
 
   &:hover {
-    box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
+    box-shadow: -5px -5px 20px $color-white, 5px 5px 20px $color-shadow;
   }
 
   &:active {
@@ -94,7 +100,8 @@ textarea {
   &.form-button {
     display: block;
     width: 100%;
-    color: $color-red;
+    // color: $color-red;
+    color: rgb(150, 186, 240);
   }
 }
 
@@ -102,10 +109,32 @@ textarea {
   text-align: center;
   font-size: 3.5em;
   margin-bottom: 0;
-  color: rgba(179, 19, 19, 0.2);
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
-  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
-  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  // color: rgba(179, 19, 19, 0.2);
+  color: rgba(150, 186, 240, 0.6);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #fff)
+  );
+  background: -moz-gradient(
+    linear,
+    left top,
+    right top,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #fff)
+  );
+  background: gradient(
+    linear,
+    left top,
+    right top,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #fff)
+  );
   -webkit-background-size: 125px 100%;
   -moz-background-size: 125px 100%;
   background-size: 125px 100%;
