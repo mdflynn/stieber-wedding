@@ -34,3 +34,35 @@
   // -24px 48px 1px #d8d6d5, -25px 50px 1px #dbdad9, -26px 52px 1px #dfdddc,
   // -27px 54px 1px #e2e0df, -28px 56px 1px #e4e3e2;
 }
+
+.text-entrance {
+  -webkit-animation: text-entrance 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: text-entrance 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes text-entrance {
+  0% {
+    letter-spacing: 0.6em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-entrance {
+  0% {
+    letter-spacing: 0.6em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
