@@ -5,10 +5,7 @@ const MainPage = () => {
   return (
     <main>
       <div className="bg">
-        <h1 className="elegant-shadow">
-          David
-          <br />&<br /> Abbey
-        </h1>
+        <h1 className="elegant-shadow">David & Abbey</h1>
       </div>
     </main>
   );
