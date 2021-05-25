@@ -62,51 +62,53 @@ const Rsvp = () => {
   };
 
   return (
-    <form onSubmit={handleFormSubmit}>
-      <div className="segment">
-        <h1 className="shimmer">RSVP</h1>
-      </div>
-      <label className="form-label">
-        <input
-          className="form-input"
-          type="text"
-          placeholder="Name"
-          value={name}
-          onChange={handleNameChange}
-        />
-      </label>
-      <label className="form-label">
-        <input
-          className="form-input"
-          type="number"
-          min={0}
-          placeholder="Number of Guests"
-          value={guests}
-          onChange={handleGuestChange}
-        />
-      </label>
-      <label className="form-label">
-        <input
-          className="form-input"
-          type="text"
-          placeholder="Email Address"
-          value={email}
-          onChange={handleEmailChange}
-        />
-      </label>
-      <label className="form-label">
-        <textarea
-          rows="4"
-          cols="50"
-          placeholder="   Message (optional)"
-          value={message}
-          onChange={handleMessageChange}
-        ></textarea>
-      </label>
-      <button className="form-button icon" type="submit">
-        Send
-      </button>
-    </form>
+    <div className="form-div">
+      <form onSubmit={handleFormSubmit}>
+        <div className="segment">
+          <h1 className="shimmer">RSVP</h1>
+        </div>
+        <label className="form-label">
+          <input
+            className="form-input"
+            type="text"
+            placeholder="Name"
+            value={name}
+            onChange={handleNameChange}
+          />
+        </label>
+        <label className="form-label">
+          <input
+            className="form-input"
+            type="number"
+            min={0}
+            placeholder="Number of Guests"
+            value={guests}
+            onChange={handleGuestChange}
+          />
+        </label>
+        <label className="form-label">
+          <input
+            className="form-input"
+            type="text"
+            placeholder="Email Address"
+            value={email}
+            onChange={handleEmailChange}
+          />
+        </label>
+        <label className="form-label">
+          <textarea
+            rows="4"
+            cols="50"
+            placeholder="   Message (optional)"
+            value={message}
+            onChange={handleMessageChange}
+          ></textarea>
+        </label>
+        <button className="form-button icon" type="submit">
+          Send
+        </button>
+      </form>
+    </div>
   );
 };
 
