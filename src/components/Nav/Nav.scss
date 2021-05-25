@@ -7,12 +7,14 @@ nav {
   color: $color-shadow;
   text-shadow: 1px 1px 1px $color-white;
   text-align: center;
+  height: 60px;
 }
 
 .nav-text {
   margin-right: 50px;
   font-weight: bold;
-  color: rgb(240, 150, 165);
+  color: rgb(150, 186, 240);
+  font-size: large;
 }
 
 #nav-name {
