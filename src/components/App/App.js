@@ -15,6 +15,7 @@ const App = () => {
       <Nav />
       <Switch>
         <Route exact path="/" component={MainPage} />
+        <Route exact path="/stieber-wedding" component={MainPage} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/rsvp" component={Rsvp} />
         <Route path="/location" component={Location} />
