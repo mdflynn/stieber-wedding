@@ -1,14 +1,14 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./Location.scss";
 import ranch from "../../assets/ranch.jpeg";
 
 const Location = () => {
   return (
-    <Fragment>
+    <>
       <div className="location-div">
         <img className="location-img" src={ranch} alt="Younger Ranch" />
         <span className="location-text">
-          September 25th <br />
+          September 25th, 2021 <br />
           4:00 pm
           <br />
           Younger Ranch
@@ -22,7 +22,7 @@ const Location = () => {
       >
         Get Directions
       </a>
-    </Fragment>
+    </>
   );
 };
 

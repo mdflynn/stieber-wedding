@@ -1,15 +1,11 @@
 import React from "react";
 import "./MainPage.scss";
-import stockOne from "../../assets/stock-1.jpg";
 
 const MainPage = () => {
   return (
     <main>
       <div className="bg">
-        <h1 className="elegant-shadow">
-          David
-          <br />&<br /> Abbey
-        </h1>
+        <h1 className="elegant-shadow text-entrance">David & Abbey</h1>
       </div>
     </main>
   );

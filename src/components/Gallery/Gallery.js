@@ -1,29 +1,47 @@
 import React, { useState } from "react";
 import "./Gallery.scss";
+import { galleryImgs } from "../../assets/gallery-imgs/index";
 
 const Gallery = () => {
-  const [modalStyle, setModalStyle] = useState(null)
-  const [imgSrc, setImgSrc] = useState("")
+  const [modalStyle, setModalStyle] = useState(null);
+  const [imgSrc, setImgSrc] = useState("");
 
   const openModal = (e) => {
-    setModalStyle({display: "block"})
-    setImgSrc(e.target.src)
-  }
+    setModalStyle({ display: "block" });
+    setImgSrc(e.target.src);
+  };
 
   const closeModal = (e) => {
-    setModalStyle({display: "none"})
+    setModalStyle({ display: "none" });
+  };
+
+  const generateGalleryImg = () => {
+    return galleryImgs.map(img => {
+      return (
+        <div className="mItem" onClick={openModal}>
+          <img
+            className="gallery-img"
+            src={img}
+            alt="gallery image 1"
+          />
+        </div>
+      )
+    })
   }
 
   return (
     <>
       <div className="modal" style={modalStyle} onClick={closeModal}>
         <div className="modal-content">
-          <span className="close" onClick={closeModal}>&times;</span>
+          <span className="close" onClick={closeModal}>
+            &times;
+          </span>
           <img className="modal-img" src={imgSrc} />
         </div>
       </div>
 
       <div className="masonry">
+        {/* {generateGalleryImg()} */}
         <div className="mItem" onClick={openModal}>
           <img
             className="gallery-img"
@@ -57,7 +75,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/200"
             alt="stock 5"
@@ -65,7 +83,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/500"
             alt="stock 6"
@@ -73,7 +91,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/400"
             alt="stock 7"
@@ -81,14 +99,14 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/30"
             alt="stock 8"
           />
         </div>
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/10"
             alt="stock 9"
@@ -96,7 +114,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/20"
             alt="stock 10"
@@ -104,7 +122,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/60"
             alt="stock 11"
@@ -112,7 +130,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/80"
             alt="stock 12"
@@ -120,7 +138,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/300"
             alt="stock 13"
@@ -128,7 +146,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/200"
             alt="stock 14"
@@ -136,7 +154,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/100"
             alt="stock 15"
@@ -144,14 +162,14 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/50"
             alt="stock 16"
           />
         </div>
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/600"
             alt="stock 17"
@@ -159,7 +177,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/500"
             alt="stock18"
@@ -167,7 +185,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/400"
             alt="stock 19"
@@ -175,14 +193,14 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/30"
             alt="stock 20"
           />
         </div>
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/10"
             alt="stock 21"
@@ -190,7 +208,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/20"
             alt="stock 22"
@@ -198,7 +216,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/60"
             alt="stock 23"
@@ -206,14 +224,14 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/80"
             alt="stock 24"
           />
         </div>
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/300"
             alt="stock 25"
@@ -221,7 +239,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/200"
             alt="stock 26"
@@ -229,7 +247,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/100"
             alt="stock 27"
@@ -237,14 +255,14 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/50"
             alt="stock 28"
           />
         </div>
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/600"
             alt="stock 29"
@@ -252,7 +270,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/500"
             alt="stock 30"
@@ -260,7 +278,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/400"
             alt="stock 31"
@@ -268,14 +286,14 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/30"
             alt="stock 32"
           />
         </div>
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/10"
             alt="stock 33"
@@ -283,7 +301,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/20"
             alt="stock 34"
@@ -291,7 +309,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/60"
             alt="stock 35"
@@ -299,7 +317,7 @@ const Gallery = () => {
         </div>
 
         <div className="mItem" onClick={openModal}>
-          <img 
+          <img
             className="gallery-img"
             src="https://source.unsplash.com/random/80"
             alt="stock 36"
