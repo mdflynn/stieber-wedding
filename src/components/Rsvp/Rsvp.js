@@ -81,7 +81,7 @@ const Rsvp = () => {
             className="form-input"
             type="number"
             min={0}
-            placeholder="Number of Guests"
+            placeholder="Total Adults Attending"
             value={guests}
             onChange={handleGuestChange}
           />
@@ -89,7 +89,7 @@ const Rsvp = () => {
         <label className="form-label">
           <input
             className="form-input"
-            type="text"
+            type="email"
             placeholder="Email Address"
             value={email}
             onChange={handleEmailChange}
