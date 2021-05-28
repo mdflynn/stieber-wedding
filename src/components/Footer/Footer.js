@@ -15,8 +15,8 @@ const Footer = () => {
   };
 
   useEffect(() => {
-    start()
-  }, [])
+    start();
+  }, [start]);
 
   return (
     <footer>
