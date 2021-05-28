@@ -1,4 +1,5 @@
 @import "../../variables";
+@import "../../mixins";
 
 textarea {
   background-color: $color-bg;
@@ -7,7 +8,6 @@ textarea {
   padding-top: 10px;
 }
 
-body,
 p,
 .form-input,
 select,
@@ -20,18 +20,12 @@ textarea,
 
 .form-div {
   background-image: url("../../assets/field.jpg");
-  content: "";
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  @include format-bg-img;
 }
 
 form {
   padding: $ruler;
   width: $ruler * 20;
-  // margin: 0 auto;
   margin-left: 20em;
 }
 
@@ -109,7 +103,6 @@ textarea {
   text-align: center;
   font-size: 3.5em;
   margin-bottom: 0;
-  // color: rgba(179, 19, 19, 0.2);
   color: rgba(150, 186, 240, 0.6);
   background: -webkit-gradient(
     linear,
@@ -159,6 +152,7 @@ textarea {
   0% {
     background-position: top left;
   }
+
   100% {
     background-position: top right;
   }
@@ -168,6 +162,7 @@ textarea {
   0% {
     background-position: top left;
   }
+
   100% {
     background-position: top right;
   }
@@ -177,6 +172,7 @@ textarea {
   0% {
     background-position: top left;
   }
+
   100% {
     background-position: top right;
   }
