@@ -9,7 +9,7 @@ const Location = () => {
         <img className="location-img" src={ranch} alt="Younger Ranch" />
         <span className="location-text">
           September 25th, 2021 <br />
-          4:00 pm
+          5:00 pm
           <br />
           Younger Ranch
         </span>
