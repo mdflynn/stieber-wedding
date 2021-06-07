@@ -26,7 +26,7 @@ const Footer = () => {
         <button onClick={stop}>Stop Song</button>
       </div>
       <br />
-      <div class="attribution-block">
+      <div className="attribution-block">
         <a href="http://dig.ccmixter.org/files/admiralbob77/46186">
           Only You (unplugged)
         </a>{" "}
