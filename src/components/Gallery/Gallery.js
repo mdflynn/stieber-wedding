@@ -20,6 +20,7 @@ const Gallery = () => {
       return (
         <div className="mItem" onClick={openModal}>
           <img
+            key={index}
             className="gallery-img"
             src={img}
             alt={`Abbey and David ${index}`}
