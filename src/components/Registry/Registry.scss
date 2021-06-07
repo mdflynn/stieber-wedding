@@ -19,9 +19,9 @@
     top: -20%;
     font-family: "youth-touch";
     text-align: center;
-    background: -webkit-linear-gradient(#ffdc2a, #fb2182);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // background: -webkit-linear-gradient(#ffdc2a, #fb2182);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
     font-size: 75px;
   }
 }
@@ -35,8 +35,10 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.65;
+  opacity: 0.5;
 }
+// Rather than setting a static position, try setting a max-height/width. This can create a responsive effect.
+
 
 .container,
 .registry-btn,
