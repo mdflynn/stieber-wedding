@@ -29,3 +29,18 @@ nav {
   font-weight: bold;
   color: rgb(240, 150, 165);
 }
+
+@media (max-width: $screen-mobile) {
+  #nav-gallery {
+    display: none;
+  }
+
+  #nav-name {
+    display: none;
+  }
+
+  .nav-text {
+    margin-right: 0;
+    font-weight: bold;
+  }
+}
