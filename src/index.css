@@ -1,5 +1,7 @@
 @import "normalize.css";
 
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
+  height: 100%;
 }

@@ -177,3 +177,15 @@ textarea {
     background-position: top right;
   }
 }
+
+@media (max-width: $screen-mobile) {
+  form {
+    margin: 0;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+
+  .form-div {
+    background-image: url("../../assets/field-mobile.jpg");
+  }
+}

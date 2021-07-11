@@ -4,11 +4,9 @@ import "./Registry.scss";
 const Registry = () => {
   return (
     <div className="registry-div">
-      <p>
+      <p className="registry-p">
         The most important thing for us is your presence during the day to
-        <br />
         celebrate our marriage, but if you do want to make a gesture, please
-        <br />
         feel free to donate to our Honeymoon Pool below
       </p>
       <div>

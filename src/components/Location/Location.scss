@@ -1,3 +1,5 @@
+@import "../../variables";
+
 @font-face {
   font-family: "self-deception";
   src: url("../../assets/SelfDeceptionRegular-ALLWA.ttf") format(("truetype"));
@@ -15,7 +17,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  
+
   .location-text {
     font-family: "self-deception";
     position: absolute;
@@ -62,5 +64,12 @@
       0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
       0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
       0 0 60px rgba(30, 132, 242, 1);
+  }
+}
+
+@media (max-width: $screen-mobile) {
+  .location-img {
+    content: url("../../assets/ranch-mobile.jpeg");
+    height: 100vh;
   }
 }

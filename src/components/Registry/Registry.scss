@@ -19,9 +19,6 @@
     top: -20%;
     font-family: "youth-touch";
     text-align: center;
-    // background: -webkit-linear-gradient(#ffdc2a, #fb2182);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
     font-size: 75px;
   }
 }
@@ -38,7 +35,6 @@
   opacity: 0.5;
 }
 // Rather than setting a static position, try setting a max-height/width. This can create a responsive effect.
-
 
 .container,
 .registry-btn,
@@ -103,6 +99,17 @@
       background: -webkit-linear-gradient(#ffdc2a, #fb2182);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+@media (max-width: $screen-mobile) {
+  .registry-div {
+    p {
+      top: -22%;
+      font-size: 35px;
+      text-align: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
   }
 }
