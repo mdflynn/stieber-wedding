@@ -12,7 +12,7 @@ const Registry = () => {
       <div>
         <div className="container">
           <a
-            href="https://paypal.me/pools/c/8zmuv6khmd"
+            href="https://paypal.me/pools/c/8B9KhrandK"
             target="_blank"
             rel="noreferrer"
           >
