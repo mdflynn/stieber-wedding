@@ -42,6 +42,7 @@ const Rsvp = () => {
         )
         .then(
           (result) => {
+            alert('Thank you! See you soon!')
             console.log("SUCCESS!", result.status, result.text);
           },
           (error) => {
